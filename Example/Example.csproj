@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="RestSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="106.15.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WhatsAppAPIHelper\WhatsAppAPIHelper.csproj" />
+  </ItemGroup>
+</Project>

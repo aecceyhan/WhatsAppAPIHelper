@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhatsAppAPIHelper", "WhatsAppAPIHelper\WhatsAppAPIHelper.csproj", "{D46A67CB-20A8-4D19-84FD-73F80FDE3979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{DE4B2215-82D1-45B9-B550-5DED8EC3BF78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D46A67CB-20A8-4D19-84FD-73F80FDE3979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D46A67CB-20A8-4D19-84FD-73F80FDE3979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D46A67CB-20A8-4D19-84FD-73F80FDE3979}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D46A67CB-20A8-4D19-84FD-73F80FDE3979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4B2215-82D1-45B9-B550-5DED8EC3BF78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4B2215-82D1-45B9-B550-5DED8EC3BF78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4B2215-82D1-45B9-B550-5DED8EC3BF78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4B2215-82D1-45B9-B550-5DED8EC3BF78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DA5FA57-B54A-4302-BBEC-D1E444454657}
+	EndGlobalSection
+EndGlobal

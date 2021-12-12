@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>WhatsAppAPIHelper</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Emre Ceyhan</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/aecceyhan/WhatsAppAPIHelper</projectUrl>
+    <repository type="git" url="https://github.com/aecceyhan/WhatsAppAPIHelper" />
+    <description>Simpler integration helper for WhatsApp Business API.</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>$copyright$</copyright>
+  </metadata>
+</package>
