@@ -3,7 +3,7 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <TargetFramework>net5.0</TargetFramework>
-    <ReleaseVersion>0.1.1</ReleaseVersion>
+    <VersionPrefix>1.0.1</VersionPrefix>
     <SynchReleaseVersion>false</SynchReleaseVersion>
   </PropertyGroup>
 
