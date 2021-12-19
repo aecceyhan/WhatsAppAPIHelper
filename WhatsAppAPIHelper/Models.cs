@@ -39,7 +39,13 @@ namespace WhatsAppAPIHelper
         public string button { get; set; }
         public List<Section> sections { get; set; }
     }
+    public class Button
+    {
+        public button_type_enum type { get; set; }
+        public string title { get; set; }
+        public string id { get; set; }
 
+    }
     public class Section
     {
         public string title { get; set; }
@@ -145,6 +151,12 @@ namespace WhatsAppAPIHelper
         public string country_code { get; set; }
         public addresses_type_enum type { get; set; }
 
+    }
+    [JsonConverter(typeof(StringEnumConverter))]
+    public enum button_type_enum
+    {
+        [EnumMember(Value = "reply")]
+        reply
     }
     [JsonConverter(typeof(StringEnumConverter))]
     public enum phone_type_enum
