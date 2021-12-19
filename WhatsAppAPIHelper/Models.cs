@@ -38,13 +38,18 @@ namespace WhatsAppAPIHelper
     {
         public string button { get; set; }
         public List<Section> sections { get; set; }
+        public List<Button> buttons { get; set; }
     }
     public class Button
     {
         public button_type_enum type { get; set; }
+        public button_reply reply { get; set; }
+
+    }
+    public class button_reply
+    {
         public string title { get; set; }
         public string id { get; set; }
-
     }
     public class Section
     {
